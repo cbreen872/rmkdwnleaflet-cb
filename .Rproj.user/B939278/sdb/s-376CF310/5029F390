@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Leaflet\"\n---\n\n```{r echo=FALSE}\nlibrary(leaflet)\nleaflet() %>%\n  addTiles %>% # Add default OpenStreetMap map tiles\n  setView(lng =  -76.154480, lat = 43.088947, zoom = 6)\n``` \n",
+    "created" : 1500839259573.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2063470038",
+    "id" : "5029F390",
+    "lastKnownWriteTime" : 1500839268,
+    "last_content_update" : 1500839268215,
+    "path" : "~/GitHub/rmkdwnleaflet-cb/about.Rmd",
+    "project_path" : "about.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
