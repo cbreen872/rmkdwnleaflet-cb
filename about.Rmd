@@ -4,7 +4,14 @@ title: "Leaflet"
 
 ```{r echo=FALSE}
 library(leaflet)
-leaflet() %>%
-  addTiles %>% # Add default OpenStreetMap map tiles
-  setView(lng =  -76.154480, lat = 43.088947, zoom = 6)
+cnyccicon <- makeIcon(
+  iconUrl = "http://www.free-icons-download.net/images/building-icons-14030.png",
+  iconWidth = 128, iconHeight = 128,
+  iconAnchorX = 100, iconAnchorY = 50
+)
+
+cnyccSite <- "<a href='http://www.cnycares.org'>CNYCC</a>"
+
+m <- leaflet() %>% setView(lng =  -76.159308, lat = 43.046266, zoom = 11)
+m %>% addTiles() %>% addMarkers(lng =  -76.159308, lat = 43.046266, icon = cnyccicon, popup = cnyccSite)
 ``` 
