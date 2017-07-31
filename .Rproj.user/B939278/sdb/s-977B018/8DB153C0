@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Leaflet\"\n---\n\n```{r echo=FALSE}\nlibrary(leaflet)\ncnyccicon <- makeIcon(\n  iconUrl = \"http://www.free-icons-download.net/images/building-icons-14030.png\",\n  iconWidth = 128, iconHeight = 128,\n  iconAnchorX = 100, iconAnchorY = 50\n)\n\ncnyccSite <- \"<a href='http://www.cnycares.org'>CNYCC</a>\"\n\nm <- leaflet() %>% setView(lng =  -76.159308, lat = 43.046266, zoom = 11)\nm %>% addTiles() %>% addMarkers(lng =  -76.159308, lat = 43.046266, icon = cnyccicon, popup = cnyccSite)\n``` \n",
+    "created" : 1501465200244.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2214562499",
+    "id" : "8DB153C0",
+    "lastKnownWriteTime" : 1500854590,
+    "last_content_update" : 1500854590,
+    "path" : "~/GitHub/rmkdwnleaflet-cb/about.Rmd",
+    "project_path" : "about.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

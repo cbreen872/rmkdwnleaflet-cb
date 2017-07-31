@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "name: \"Week 3 Assignment\"\noutput_dir: \".\"\nnavbar:\n  title: \"Week 3 Assignment\"\n  left:\n    - text: \"Home\"\n      href: index.html\n    - text: \"About Me\"\n      href: about.html\n    - text: \"Presentation Project\"\n      href: presentation.html",
+    "created" : 1501426817905.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2622069",
+    "id" : "F69BAF7F",
+    "lastKnownWriteTime" : 1501426861,
+    "last_content_update" : 1501426861506,
+    "path" : "~/GitHub/rmkdwnleaflet-cb/_site.yml",
+    "project_path" : "_site.yml",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

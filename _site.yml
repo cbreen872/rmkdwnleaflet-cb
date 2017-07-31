@@ -1,9 +1,11 @@
-name: "Week 2 Assignment"
+name: "Week 3 Assignment"
 output_dir: "."
 navbar:
-  title: "Week 2 Assignment"
+  title: "Week 3 Assignment"
   left:
     - text: "Home"
       href: index.html
     - text: "About Me"
       href: about.html
+    - text: "Presentation Project"
+      href: presentation.html

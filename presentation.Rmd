@@ -1,0 +1,19 @@
+---
+title: "Plotly Presentation"
+date: "July 30, 2017"
+Author: "Cassie Breen"
+output: ioslides_presentation
+---
+##Week 3 Assignment - Plotly
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r, fig.align='center', message = FALSE}
+library(plotly)
+
+p <- ggplot(cars) + geom_point(aes(speed, dist))
+
+ggplotly(p)
+```
