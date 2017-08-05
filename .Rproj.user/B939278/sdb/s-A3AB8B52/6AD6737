@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Coursera - Data Products\"\n---\n\nThis is the website for the Data Product's Coursera Class Assignments\n\n# Date Created\n\nJuly, 23, 2017\n\n# Instructions - Week 2\n\nCreate a web page using R Markdown that features a map created with Leaflet.\n\nHost your webpage on either GitHub Pages, RPubs, or NeoCities.\n\nYour webpage must contain the date that you created the document, and it must contain a map created with Leaflet. We would love to see you show off your creativity!\n\n# Instructions - Week 3\n\nCreate a web page presentation using R Markdown that features a plot created with Plotly. Host your webpage on either GitHub Pages, RPubs, or NeoCities. Your webpage must contain the date that you created the document, and it must contain a plot created with Plotly. We would love to see you show off your creativity!",
+    "created" : 1501466883325.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "332930271",
+    "id" : "6AD6737",
+    "lastKnownWriteTime" : 1501466536,
+    "last_content_update" : 1501466536,
+    "path" : "~/GitHub/rmkdwnleaflet-cb/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
